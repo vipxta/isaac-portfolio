@@ -2,6 +2,7 @@
 node_modules/
 .pnp/
 .pnp.js
+yarn.lock
 
 # Build
 .next/
@@ -42,3 +43,6 @@ Thumbs.db
 # Misc
 *.log
 .vercel
+
+# Yarn
+.yarn/
