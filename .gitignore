@@ -2,7 +2,6 @@
 node_modules/
 .pnp/
 .pnp.js
-yarn.lock
 
 # Build
 .next/
@@ -14,13 +13,12 @@ build/
 # Database
 *.db
 *.db-journal
+prisma/dev.db
 
 # Environment
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
 
 # Debug
 npm-debug.log*
@@ -30,20 +28,17 @@ yarn-error.log*
 # IDE
 .idea/
 .vscode/
-*.swp
-*.swo
 
 # OS
 .DS_Store
-Thumbs.db
 
 # TypeScript
 *.tsbuildinfo
 
-# Misc
-*.log
+# Vercel
 .vercel
 
 # Yarn
 .yarn/
-node_modules
+.yarnrc.yml
+yarn.lock
