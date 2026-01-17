@@ -124,7 +124,7 @@ export const portfolioData = {
             en: 'Automated web vulnerability scanner that performs comprehensive security analysis using OWASP ZAP with detailed reports and CI/CD integration.'
           },
           tech: ['OWASP ZAP', 'Python', 'Docker', 'Jenkins'],
-          github: 'https://github.com/isaac-qa/zap-automated-scanner'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/01-owasp-zap-scanner'
         },
         {
           id: 2,
@@ -134,7 +134,7 @@ export const portfolioData = {
             en: 'Burp Suite Professional API integration for penetration testing automation and HTTP/HTTPS traffic analysis in web applications.'
           },
           tech: ['Burp Suite', 'REST API', 'Python', 'Java'],
-          github: 'https://github.com/isaac-qa/burp-api-integration'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/02-burp-suite-api'
         },
         {
           id: 3,
@@ -144,7 +144,7 @@ export const portfolioData = {
             en: 'Automated security pipeline that blocks deployments when critical vulnerabilities are detected, ensuring secure code in production.'
           },
           tech: ['GitHub Actions', 'Jenkins', 'OWASP ZAP', 'SonarQube'],
-          github: 'https://github.com/isaac-qa/security-gate-pipeline'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/03-security-gate-cicd'
         },
         {
           id: 4,
@@ -154,7 +154,7 @@ export const portfolioData = {
             en: 'Interactive dashboard for visualization and monitoring of detected vulnerabilities, with evolution metrics and real-time alerts.'
           },
           tech: ['OWASP ZAP', 'Grafana', 'Python', 'PostgreSQL'],
-          github: 'https://github.com/isaac-qa/vulnerability-dashboard'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/04-vulnerability-dashboard'
         },
         {
           id: 5,
@@ -164,7 +164,7 @@ export const portfolioData = {
             en: 'Specialized tool for detecting and reporting SQL Injection vulnerabilities in forms and URL parameters automatically.'
           },
           tech: ['OWASP ZAP', 'Burp Suite', 'Selenium', 'Python'],
-          github: 'https://github.com/isaac-qa/sql-injection-detector'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/05-sql-injection-detector'
         },
         {
           id: 6,
@@ -174,7 +174,7 @@ export const portfolioData = {
             en: 'Automated scanner for detecting reflected, stored, and DOM-based Cross-Site Scripting (XSS) vulnerabilities.'
           },
           tech: ['OWASP ZAP', 'JavaScript', 'Node.js', 'Puppeteer'],
-          github: 'https://github.com/isaac-qa/xss-scanner-automation'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/06-xss-scanner'
         },
         {
           id: 7,
@@ -184,7 +184,7 @@ export const portfolioData = {
             en: 'Test suite to validate authentication security: brute force, bypass, session hijacking, and OAuth vulnerabilities.'
           },
           tech: ['Burp Suite', 'OWASP ZAP', 'Python', 'OAuth 2.0'],
-          github: 'https://github.com/isaac-qa/auth-security-tests'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/07-authentication-tests'
         },
         {
           id: 8,
@@ -194,7 +194,7 @@ export const portfolioData = {
             en: 'Tool to validate CSRF protection implementation in web applications, testing tokens and security headers.'
           },
           tech: ['OWASP ZAP', 'Python', 'Selenium', 'REST API'],
-          github: 'https://github.com/isaac-qa/csrf-validator'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/08-csrf-validator'
         },
         {
           id: 9,
@@ -204,7 +204,7 @@ export const portfolioData = {
             en: 'Automatic security report generator in PDF/HTML consolidating results from multiple scanning tools.'
           },
           tech: ['OWASP ZAP', 'Burp Suite', 'Python', 'ReportLab'],
-          github: 'https://github.com/isaac-qa/security-reports-generator'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/09-security-reports'
         },
         {
           id: 10,
@@ -214,7 +214,7 @@ export const portfolioData = {
             en: 'Complete automated penetration testing suite following OWASP Testing Guide and PTES methodology.'
           },
           tech: ['Burp Suite', 'OWASP ZAP', 'Kali Linux', 'Metasploit'],
-          github: 'https://github.com/isaac-qa/pentest-suite'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/10-pentest-suite'
         },
         {
           id: 11,
@@ -224,7 +224,7 @@ export const portfolioData = {
             en: 'Specialized scanner for REST/GraphQL APIs to detect vulnerabilities like BOLA, broken authentication, and mass assignment.'
           },
           tech: ['OWASP ZAP API', 'Postman', 'Python', 'Newman'],
-          github: 'https://github.com/isaac-qa/api-security-scanner'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/11-api-security-scanner'
         },
         {
           id: 12,
@@ -234,7 +234,7 @@ export const portfolioData = {
             en: 'Tool for JWT token security analysis and testing: weak algorithms, expiration, claims, and signature bypass.'
           },
           tech: ['Burp Suite', 'Python', 'JWT.io', 'Node.js'],
-          github: 'https://github.com/isaac-qa/jwt-analyzer'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/12-jwt-analyzer'
         },
         {
           id: 13,
@@ -244,7 +244,7 @@ export const portfolioData = {
             en: 'Automated SSL/TLS certificate validator, checking expiration, cipher suites, and security configurations.'
           },
           tech: ['OpenSSL', 'Python', 'SSLyze', 'testssl.sh'],
-          github: 'https://github.com/isaac-qa/ssl-tls-checker'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/13-ssl-tls-checker'
         },
         {
           id: 14,
@@ -254,7 +254,7 @@ export const portfolioData = {
             en: 'Tool to validate HTTP security headers: CSP, HSTS, X-Frame-Options, X-Content-Type-Options, and more.'
           },
           tech: ['OWASP ZAP', 'Node.js', 'Python', 'curl'],
-          github: 'https://github.com/isaac-qa/security-headers-validator'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/14-security-headers'
         },
         {
           id: 15,
@@ -264,7 +264,7 @@ export const portfolioData = {
             en: 'Scanner to detect sensitive data exposure: PII, credentials in code, API keys, and leaked tokens.'
           },
           tech: ['Burp Suite', 'TruffleHog', 'GitLeaks', 'Python'],
-          github: 'https://github.com/isaac-qa/sensitive-data-detector'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/15-sensitive-data-detector'
         },
         {
           id: 16,
@@ -274,7 +274,7 @@ export const portfolioData = {
             en: 'Tool to test rate limiting implementation in APIs, preventing brute force and DoS attacks.'
           },
           tech: ['OWASP ZAP', 'k6', 'Python', 'Apache Benchmark'],
-          github: 'https://github.com/isaac-qa/rate-limiting-tester'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/16-rate-limiting-tester'
         },
         {
           id: 17,
@@ -284,7 +284,7 @@ export const portfolioData = {
             en: 'Scanner to identify insecure CORS configurations that may allow unauthorized access to resources.'
           },
           tech: ['Burp Suite', 'Python', 'cURL', 'JavaScript'],
-          github: 'https://github.com/isaac-qa/cors-scanner'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/17-cors-scanner'
         },
         {
           id: 18,
@@ -294,7 +294,7 @@ export const portfolioData = {
             en: 'Test suite for file upload vulnerabilities: extension bypass, magic bytes, and path traversal.'
           },
           tech: ['OWASP ZAP', 'Burp Suite', 'Python', 'ExifTool'],
-          github: 'https://github.com/isaac-qa/file-upload-tester'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/18-file-upload-tester'
         },
         {
           id: 19,
@@ -304,7 +304,7 @@ export const portfolioData = {
             en: 'Tool for session management analysis: fixation, token predictability, and timeout configurations.'
           },
           tech: ['Burp Suite', 'OWASP ZAP', 'Python', 'Selenium'],
-          github: 'https://github.com/isaac-qa/session-analyzer'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/19-session-analyzer'
         },
         {
           id: 20,
@@ -314,7 +314,7 @@ export const portfolioData = {
             en: 'Compliance report generator based on OWASP Top 10, mapping found vulnerabilities to official categories.'
           },
           tech: ['OWASP ZAP', 'Burp Suite', 'Python', 'Jinja2'],
-          github: 'https://github.com/isaac-qa/owasp-compliance-reporter'
+          github: 'https://github.com/vipxta/security-testing-framework/tree/main/20-owasp-top10-reporter'
         }
       ]
     },
