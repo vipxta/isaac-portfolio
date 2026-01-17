@@ -43,3 +43,4 @@ yarn-error.log*
 .yarnrc.yml
 prisma/
 lib/db.ts
+node_modules
