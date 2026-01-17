@@ -41,6 +41,5 @@ yarn-error.log*
 # Yarn
 .yarn/
 .yarnrc.yml
-yarn.lock
 prisma/
 lib/db.ts
