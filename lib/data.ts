@@ -331,12 +331,215 @@ export const portfolioData = {
     {
       title: { pt: 'Automação E2E Multi-plataforma', en: 'Multi-platform E2E Automation' },
       category: 'automation',
+      hasSubProjects: true,
       description: {
         pt: 'Framework de automação E2E para Web e Mobile utilizando Cypress, Playwright, Selenium e Appium com integração contínua.',
         en: 'E2E automation framework for Web and Mobile using Cypress, Playwright, Selenium, and Appium with continuous integration.'
       },
       tech: ['Cypress', 'Playwright', 'Selenium', 'Appium', 'TypeScript'],
-      metrics: { pt: '+200 casos de teste automatizados', en: '200+ automated test cases' }
+      metrics: { pt: '20 projetos | +200 casos de teste', en: '20 projects | 200+ test cases' },
+      subProjects: [
+        {
+          id: 1,
+          title: { pt: 'Cypress E2E Framework', en: 'Cypress E2E Framework' },
+          description: {
+            pt: 'Framework completo de automação E2E com TypeScript, Page Objects, custom commands e fixtures para testes web modernos.',
+            en: 'Complete E2E automation framework with TypeScript, Page Objects, custom commands, and fixtures for modern web testing.'
+          },
+          tech: ['Cypress', 'TypeScript', 'Page Objects', 'Mochawesome'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/01-cypress-e2e-framework'
+        },
+        {
+          id: 2,
+          title: { pt: 'Playwright Multi-Browser', en: 'Playwright Multi-Browser' },
+          description: {
+            pt: 'Framework Playwright com suporte a Chromium, Firefox e WebKit para testes cross-browser automatizados.',
+            en: 'Playwright framework with Chromium, Firefox, and WebKit support for automated cross-browser testing.'
+          },
+          tech: ['Playwright', 'TypeScript', 'Chromium', 'Firefox', 'WebKit'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/02-playwright-multi-browser'
+        },
+        {
+          id: 3,
+          title: { pt: 'Selenium TestNG Framework', en: 'Selenium TestNG Framework' },
+          description: {
+            pt: 'Framework Java com Selenium WebDriver e TestNG para automação web corporativa com reporting avançado.',
+            en: 'Java framework with Selenium WebDriver and TestNG for enterprise web automation with advanced reporting.'
+          },
+          tech: ['Selenium', 'Java', 'TestNG', 'Maven', 'ExtentReports'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/03-selenium-testng-framework'
+        },
+        {
+          id: 4,
+          title: { pt: 'Selenium NUnit C#', en: 'Selenium NUnit C#' },
+          description: {
+            pt: 'Framework C# com Selenium e NUnit para automação de aplicações .NET com Page Object Model.',
+            en: 'C# framework with Selenium and NUnit for .NET application automation with Page Object Model.'
+          },
+          tech: ['Selenium', 'C#', 'NUnit', '.NET', 'SpecFlow'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/04-selenium-nunit-csharp'
+        },
+        {
+          id: 5,
+          title: { pt: 'Appium Mobile Testing', en: 'Appium Mobile Testing' },
+          description: {
+            pt: 'Framework Python com Appium para automação de testes em aplicativos Android e iOS nativos e híbridos.',
+            en: 'Python framework with Appium for automated testing of native and hybrid Android/iOS applications.'
+          },
+          tech: ['Appium', 'Python', 'Android', 'iOS', 'Pytest'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/05-appium-mobile-testing'
+        },
+        {
+          id: 6,
+          title: { pt: 'Espresso Android Native', en: 'Espresso Android Native' },
+          description: {
+            pt: 'Testes nativos Android com Espresso e Kotlin para validação de UI com alta performance e confiabilidade.',
+            en: 'Native Android tests with Espresso and Kotlin for UI validation with high performance and reliability.'
+          },
+          tech: ['Espresso', 'Kotlin', 'Android', 'JUnit', 'Gradle'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/06-espresso-android-native'
+        },
+        {
+          id: 7,
+          title: { pt: 'XCUITest iOS Native', en: 'XCUITest iOS Native' },
+          description: {
+            pt: 'Testes nativos iOS com XCUITest e Swift para automação de interfaces Apple com XCTest framework.',
+            en: 'Native iOS tests with XCUITest and Swift for Apple interface automation with XCTest framework.'
+          },
+          tech: ['XCUITest', 'Swift', 'iOS', 'XCTest', 'Xcode'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/07-xcuitest-ios-native'
+        },
+        {
+          id: 8,
+          title: { pt: 'Robot Framework Suite', en: 'Robot Framework Suite' },
+          description: {
+            pt: 'Suite completa com Robot Framework usando keyword-driven testing para automação web e API.',
+            en: 'Complete suite with Robot Framework using keyword-driven testing for web and API automation.'
+          },
+          tech: ['Robot Framework', 'SeleniumLibrary', 'RequestsLibrary', 'Python'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/08-robot-framework-suite'
+        },
+        {
+          id: 9,
+          title: { pt: 'Cucumber BDD Framework', en: 'Cucumber BDD Framework' },
+          description: {
+            pt: 'Framework BDD com Cucumber e Gherkin para especificações executáveis e colaboração entre times.',
+            en: 'BDD framework with Cucumber and Gherkin for executable specifications and team collaboration.'
+          },
+          tech: ['Cucumber', 'Java', 'Gherkin', 'Selenium', 'JUnit'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/09-cucumber-bdd-framework'
+        },
+        {
+          id: 10,
+          title: { pt: 'TestCafe Automation', en: 'TestCafe Automation' },
+          description: {
+            pt: 'Framework TestCafe com TypeScript para testes E2E sem necessidade de WebDriver ou plugins.',
+            en: 'TestCafe framework with TypeScript for E2E tests without WebDriver or plugins required.'
+          },
+          tech: ['TestCafe', 'TypeScript', 'Node.js', 'Page Objects'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/10-testcafe-automation'
+        },
+        {
+          id: 11,
+          title: { pt: 'Katalon Studio Scripts', en: 'Katalon Studio Scripts' },
+          description: {
+            pt: 'Scripts Groovy para Katalon Studio com keywords customizadas e integração de dados externos.',
+            en: 'Groovy scripts for Katalon Studio with custom keywords and external data integration.'
+          },
+          tech: ['Katalon', 'Groovy', 'Selenium', 'TestOps'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/11-katalon-studio-scripts'
+        },
+        {
+          id: 12,
+          title: { pt: 'Tricentis Tosca Integration', en: 'Tricentis Tosca Integration' },
+          description: {
+            pt: 'Guia de integração e melhores práticas para automação model-based com Tricentis Tosca.',
+            en: 'Integration guide and best practices for model-based automation with Tricentis Tosca.'
+          },
+          tech: ['Tosca', 'Model-Based Testing', 'SAP', 'Salesforce'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/12-tricentis-tosca-integration'
+        },
+        {
+          id: 13,
+          title: { pt: 'Postman Newman API', en: 'Postman Newman API' },
+          description: {
+            pt: 'Collections Postman com Newman para automação de testes de API REST com CI/CD integration.',
+            en: 'Postman collections with Newman for REST API test automation with CI/CD integration.'
+          },
+          tech: ['Postman', 'Newman', 'JavaScript', 'REST API', 'JSON Schema'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/13-postman-newman-api'
+        },
+        {
+          id: 14,
+          title: { pt: 'Rest-Assured Framework', en: 'Rest-Assured Framework' },
+          description: {
+            pt: 'Framework Java com Rest-Assured para testes de API com validação de schema e autenticação OAuth.',
+            en: 'Java framework with Rest-Assured for API testing with schema validation and OAuth authentication.'
+          },
+          tech: ['Rest-Assured', 'Java', 'TestNG', 'JSON Schema', 'OAuth'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/14-rest-assured-framework'
+        },
+        {
+          id: 15,
+          title: { pt: 'Karate DSL Suite', en: 'Karate DSL Suite' },
+          description: {
+            pt: 'Suite Karate DSL para testes de API com sintaxe Gherkin simplificada e mocking integrado.',
+            en: 'Karate DSL suite for API testing with simplified Gherkin syntax and integrated mocking.'
+          },
+          tech: ['Karate', 'Gherkin', 'Java', 'REST', 'GraphQL'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/15-karate-dsl-suite'
+        },
+        {
+          id: 16,
+          title: { pt: 'SoapUI API Testing', en: 'SoapUI API Testing' },
+          description: {
+            pt: 'Scripts Groovy para SoapUI com testes SOAP/REST e data-driven testing automatizado.',
+            en: 'Groovy scripts for SoapUI with SOAP/REST tests and automated data-driven testing.'
+          },
+          tech: ['SoapUI', 'Groovy', 'SOAP', 'REST', 'WSDL'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/16-soapui-api-testing'
+        },
+        {
+          id: 17,
+          title: { pt: 'BrowserStack Cloud', en: 'BrowserStack Cloud' },
+          description: {
+            pt: 'Integração Python/Selenium com BrowserStack para testes em dispositivos reais e browsers na nuvem.',
+            en: 'Python/Selenium integration with BrowserStack for testing on real devices and cloud browsers.'
+          },
+          tech: ['BrowserStack', 'Python', 'Selenium', 'Pytest', 'Cloud Testing'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/17-browserstack-cloud'
+        },
+        {
+          id: 18,
+          title: { pt: 'Sauce Labs Cross-Platform', en: 'Sauce Labs Cross-Platform' },
+          description: {
+            pt: 'Framework para execução de testes em Sauce Labs com suporte a múltiplos browsers e plataformas.',
+            en: 'Framework for test execution on Sauce Labs with support for multiple browsers and platforms.'
+          },
+          tech: ['Sauce Labs', 'Selenium', 'Appium', 'Cross-Browser', 'Cloud'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/18-sauce-labs-crossplatform'
+        },
+        {
+          id: 19,
+          title: { pt: 'Pytest Selenium Framework', en: 'Pytest Selenium Framework' },
+          description: {
+            pt: 'Framework Python com Pytest e Selenium para testes web com fixtures avançadas e paralelização.',
+            en: 'Python framework with Pytest and Selenium for web tests with advanced fixtures and parallelization.'
+          },
+          tech: ['Pytest', 'Selenium', 'Python', 'Allure', 'pytest-xdist'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/19-pytest-selenium-framework'
+        },
+        {
+          id: 20,
+          title: { pt: 'CI/CD Test Pipeline', en: 'CI/CD Test Pipeline' },
+          description: {
+            pt: 'Configurações completas de CI/CD com GitHub Actions, Jenkins e Docker para execução automatizada de testes.',
+            en: 'Complete CI/CD configurations with GitHub Actions, Jenkins, and Docker for automated test execution.'
+          },
+          tech: ['GitHub Actions', 'Jenkins', 'Docker', 'Kubernetes', 'CI/CD'],
+          github: 'https://github.com/vipxta/automation-testing-framework/tree/main/20-cicd-test-pipeline'
+        }
+      ]
     },
     {
       title: { pt: 'Pipeline QAOps', en: 'QAOps Pipeline' },
